@@ -1,0 +1,124 @@
+.DA_Tablecontainer{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.DA_Tablecontainer button{
+background-color: #2a582b; 
+/* border: none; */
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 15px 50px 30px; 
+font-size: 14px;
+margin: 7px 15px;
+/* cursor: pointer; */
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s;
+box-shadow: 0 10px 14px 0 rgba(0,0,0,0.12),0 17px 50px 0 rgba(0,0,0,0.15);
+}
+
+
+.DA_Tablecontainer td{
+font-weight: normal;
+font-size: 1em;
+text-align: center; 
+vertical-align: middle;
+}
+
+.DA_tableHead_tr{
+font-weight:bolder;
+font-size: 1.4rem;
+background-color:#29572A;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+
+.H_tableRow,th,h2 {
+line-height:2em;
+color: #fff;
+/* padding-left: 30px; */
+font-weight:lighter;
+
+
+}
+.DA_th_CA{
+    padding-left: 5rem;
+   
+}
+
+
+/* Background-color of the odd rows */
+/* .DA_Tablecontainer tr:nth-child(odd) {
+background-color: #EAEAEA;
+} */
+
+/* Background-color of the even rows */
+/* .DA_Tablecontainer tr:nth-child(even) {
+background-color: #75c08b;
+} */
+
+.DA_Tablecontainer th {
+background-color: #2a582b;
+}
+
+.DA_Tablecontainer td:first-child { color: black; }
+
+.DA_Tablecontainer tr:hover {
+background-color: #E5F3E6;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+-moz-box-shadow: 0 6px 6px -6px #0E1119;
+box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.DA_Tablecontainer td:hover {
+color: #2a582b;
+font-weight:bolder;
+transition-delay: 0s;
+transition-duration: 0.4s;
+transition-property: all;
+transition-timing-function: line;
+}
+
+    @media only screen and (max-width: 535px) {
+        .DA_Tablecontainer{ 
+             font-size: small;
+             /* margin:0px; */
+             margin: 0;
+             text-align: center;
+             max-width: 50%;
+             width: 50%;
+             
+        } 
+        }
+    
+
+    /* @media only screen and (min-width: 600px) and (max-width: 768px) {
+    
+        overflow-x: scroll;
+    
+        }  */
+
+    @media only screen and (max-width: 600px) {
+
+    .DA_tableHead h2{
+        font-size: 20px;
+     }
+    .DA_Tablecontainer{
+        font-size: 20px;
+        
+     }
+   }
+
+
+
+    
+
+
+
+   

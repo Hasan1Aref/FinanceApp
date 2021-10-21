@@ -1,0 +1,18 @@
+.ABcontent {
+  max-width: 800px;
+  margin: auto;
+  padding: 16px 32px;
+  position:absolute;
+}
+.ABh1{
+  position:absolute;
+  margin-top:3.5em;
+  margin-left: 3em;
+
+}
+.ABcontainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* margin-left: 4em; */
+}

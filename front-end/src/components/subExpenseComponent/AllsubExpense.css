@@ -1,0 +1,155 @@
+.HA_Tablecontainer_subExpense{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    margin-left: 6em;
+    margin-top: 3em;
+}
+
+.HA_Tablecontainer_subExpense button{
+background-color: #2a582b; 
+/* border: none; */
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 15px 50px 30px; 
+font-size: 14px;
+margin: 7px 15px;
+/* cursor: pointer; */ 
+transition-duration: 0.4s;
+box-shadow: 0 10px 14px 0 rgba(0,0,0,0.12),0 17px 50px 0 rgba(0,0,0,0.15);
+}
+
+
+.HA_Tablecontainer_subExpense td{
+font-weight: normal;
+font-size: 1em;
+text-align: center; 
+vertical-align: middle;
+}
+
+.HA_tableHead_tr_subExpense{
+font-weight:bolder;
+font-size: 1rem;
+background-color:#29572A;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+
+.H_tableRow,th,h2 {
+line-height:2em;
+color: #fff;
+/* padding-left: 30px; */
+font-weight:lighter;
+
+
+}
+.HA_th_CA{
+    padding-left: 1.7rem;
+   
+}
+
+
+/* Background-color of the odd rows */
+/* .HA_Tablecontainer tr:nth-child(odd) {
+background-color: #EAEAEA;
+} */
+
+/* Background-color of the even rows */
+/* .HA_Tablecontainer tr:nth-child(even) {
+background-color: #75c08b;
+} */
+
+.HA_Tablecontainer_subExpense th {
+background-color: #2a582b;
+}
+
+.HA_Tablecontainer_subExpense td:first-child { color: black; }
+
+.HA_Tablecontainer_subExpense tr:hover {
+background-color: #E5F3E6;
+box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.HA_Tablecontainer_subExpense td:hover {
+color: #2a582b;
+font-weight:bolder;
+transition-delay: 0s;
+transition-duration: 0.4s;
+transition-property: all;
+transition-timing-function: line;
+}
+.HA_AddSubExpense{
+    max-width: 100%;
+    height: 4rem;
+    /* padding:2px 20px ; */
+    background-color: #BCE1BF;
+    padding-top:5px;
+    
+}
+.HA_titleSubExpense{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+.HA_titleSubExpense button{
+    background-color: #2a582b; 
+/* border: none; */
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 15px 50px 30px; 
+font-size: 14px;
+margin: 7px 15px;
+/* cursor: pointer; */ 
+transition-duration: 0.4s;
+box-shadow: 0 10px 14px 0 rgba(0,0,0,0.12),0 17px 50px 0 rgba(0,0,0,0.15);
+}
+
+
+
+    @media only screen and (max-width: 535px) {
+        .HA_Tablecontainer_subExpense{ 
+             font-size: small;
+             /* margin:0px; */
+             margin: 0;
+             text-align: center;
+             max-width: 50%;
+             width: 50%;
+             
+        } 
+        }
+    
+
+    /* @media only screen and (min-width: 600px) and (max-width: 768px) {
+    
+        overflow-x: scroll;
+    
+        }  */
+
+    @media only screen and (max-width: 600px) {
+
+    .HA_thead_subExpense h2{
+        font-size: 20px;
+     }
+    .HA_Tablecontainer_subExpense{
+        font-size: 20px;
+        
+     }
+   }
+
+
+
+    
+
+
+
+   

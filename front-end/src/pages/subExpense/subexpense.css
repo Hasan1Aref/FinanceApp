@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+   
+   
+    /* background-color: blueviolet; */
+}
+.HA_subExpensesContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 7rem;
+    /* background-color:#E5F3E6; */
+}
+
+
+
+.HA_AllsubExpensesContainer{
+    width: 100%;
+    height: 100%;
+    
+}
+/* .DA_AddCategoryContainer{
+    width: auto;
+} */

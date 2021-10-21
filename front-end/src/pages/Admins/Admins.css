@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+   
+   
+    /* background-color: blueviolet; */
+}
+.DA_AdminContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background-color:#E5F3E6; */
+}
+
+.DA_AddAdminContainer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-bottom: 7rem;
+}
+
+.DA_AllAdminContainer{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    margin:11rem 8rem ;
+}
+/* .DA_AddCategoryContainer{
+    width: auto;
+} */
+
+
+
+
+
+

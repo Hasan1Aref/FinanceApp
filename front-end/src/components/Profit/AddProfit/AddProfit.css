@@ -1,0 +1,26 @@
+
+    .DA_ISB_p{
+     margin-left: 5rem;
+     margin-top: 3rem;
+     
+    }
+
+    .DA_button_add{
+        width: 7em;
+        /* margin-right: 20px; */
+        background-color: #2a582b; 
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 15px 50px 30px; 
+        font-size: 16px;
+        /* cursor: pointer;  */
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+   
